@@ -1,0 +1,91 @@
+html{
+    font-family: Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(210, 114, 45, 0.917);
+}
+
+.main {
+    display: flex;
+}
+
+.nombreForm2 {
+    font-size: smaller;
+}
+
+.izquierda {
+    flex: 50%;
+}
+
+.izquierda2 {
+    flex: 50%;
+    text-align: center;
+    background: rgb(28,160,195);
+    background: linear-gradient(0deg, rgba(11,128,194,0.3) 0%, rgba(11,128,194,0.2) 100%);
+    /* background: rgb(231,231,231);
+    background: linear-gradient(0deg, rgba(231,231,231,1) 0%, rgba(255,255,255,1) 47%, rgba(232,232,232,1) 100%); */
+    border-radius: 2%;
+
+}
+
+#nombre {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+#apellidos {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+#emailform {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+#telefono {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+#password {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+#password2 {
+    margin-bottom: 50px;
+    width: 300px;
+    height: 30px;
+}
+
+.inicioSesionAzul2 {
+    box-shadow: 0 0 0 1px;
+    border-radius: 25px;
+    padding: 15px 100px;
+    color: white;
+    background-color: rgb(49, 101, 244);
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.datos {
+    font-weight: bold;
+}
