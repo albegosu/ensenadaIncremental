@@ -19,6 +19,8 @@ html{
     max-height: 50px;
     padding: 35px;
     border-radius: 8px;
+    position: sticky;
+    top: 0px;
 }
 
 .buscador {
@@ -107,6 +109,7 @@ h2 {
 
 .main {
     display: flex;
+    justify-content: center;
 }
 
 .nombreForm2 {
@@ -123,11 +126,6 @@ h2 {
 .izquierda2 {
     flex: 50%;
     text-align: center;
-    /* background: rgb(28,160,195);
-    background: linear-gradient(0deg, rgba(11,128,194,0.3) 0%, rgba(11,128,194,0.2) 100%); */
-
-    /* background: rgb(231,231,231);
-    background: linear-gradient(0deg, rgba(231,231,231,1) 0%, rgba(255,255,255,1) 47%, rgba(232,232,232,1) 100%); */
     border-radius: 2%;
 
 }
@@ -173,8 +171,14 @@ input {
     margin-top: 80px;
 }
 
+.derecha2 {
+    flex: 50%;
+}
+
 .derecha2 img {
+    
     margin-top: 50px;
+    margin-left: 100px;
 }
 
 /* ESTILO DEL DIV QUE CONTENTRÁ EL INPUT */
